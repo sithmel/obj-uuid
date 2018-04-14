@@ -1,6 +1,6 @@
 {
   "name": "obj-uuid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Object uuid",
   "main": "index.js",
   "scripts": {
