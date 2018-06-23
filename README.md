@@ -1,5 +1,11 @@
 obj-uuid
 ========
+
+### This module is deprecated
+The main reason is because the name is very misleading
+
+Important caveat: it does generate ids in the uuid format, but it is not universal. It is unique only for the current process
+
 This module translate any object/js value to an unique identifier (string).
 For objects it generate a random id and stores it in a WeakMap. So it is consistent within the same process and it can be easily garbage collected.
 
